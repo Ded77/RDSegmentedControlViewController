@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D276D1A18523A0C00F9AEEB /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D276D1918523A0C00F9AEEB /* TestView.m */; };
 		5D37B23B185233AD0043FEBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37B23A185233AD0043FEBD /* Foundation.framework */; };
 		5D37B23D185233AD0043FEBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37B23C185233AD0043FEBD /* CoreGraphics.framework */; };
 		5D37B23F185233AD0043FEBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37B23E185233AD0043FEBD /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D276D1818523A0C00F9AEEB /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		5D276D1918523A0C00F9AEEB /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		5D37B237185233AD0043FEBD /* RDSegmentedControlViewController Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RDSegmentedControlViewController Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D37B23A185233AD0043FEBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5D37B23C185233AD0043FEBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +84,8 @@
 		5D37B22E185233AD0043FEBD = {
 			isa = PBXGroup;
 			children = (
+				5D276D1818523A0C00F9AEEB /* TestView.h */,
+				5D276D1918523A0C00F9AEEB /* TestView.m */,
 				5D37B240185233AD0043FEBD /* RDSegmentedControlViewController Example */,
 				5D37B259185233AD0043FEBD /* RDSegmentedControlViewController ExampleTests */,
 				5D37B239185233AD0043FEBD /* Frameworks */,
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D276D1A18523A0C00F9AEEB /* TestView.m in Sources */,
 				5D37B24B185233AD0043FEBD /* RDAppDelegate.m in Sources */,
 				5D37B247185233AD0043FEBD /* main.m in Sources */,
 				5D37B26C185233C30043FEBD /* RDSegmentedControlViewController.m in Sources */,
@@ -462,6 +468,7 @@
 				5D37B265185233AD0043FEBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D37B266185233AD0043FEBD /* Build configuration list for PBXNativeTarget "RDSegmentedControlViewController ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +477,7 @@
 				5D37B268185233AD0043FEBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
